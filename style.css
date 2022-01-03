@@ -11,9 +11,25 @@ video {
   aspect-ratio: 16/9;
 }
 
-/* CV sektionen */
+/* CV sektionen på om mig siden */
 .mig {
   text-align: justify;
   margin: 20px; /*space around an element */
   padding: 20px;
+}
+
+/* tema 2 siden */
+
+.tema_2_opgave {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 5px;
 }
