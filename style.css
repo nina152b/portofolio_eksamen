@@ -20,6 +20,7 @@ video {
 
 /* tema 2 siden */
 
+/*knap til opagven*/
 .tema_2_opgave {
   border: none;
   color: black;
@@ -34,6 +35,7 @@ video {
   box-shadow: 5px 5px;
 }
 
+/*moodboard opstilling */
 .gallery_tema2 img {
   width: 80%;
   height: auto;
@@ -50,4 +52,51 @@ video {
   gap: 10px;
   margin: 20px;
   padding: 20px;
+}
+
+/*Tema 3 siden*/
+
+/* knap til første bilag*/
+.tema_3_bilag1 {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
+/* knap til andet bilag*/
+.tema_3_bilag2 {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
+/* tema 4 siden */
+.tema_4_doku {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 5px;
 }
