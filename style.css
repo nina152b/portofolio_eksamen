@@ -1,5 +1,5 @@
 /* Til justering af video */
-img,
+
 video {
   left: 10%;
   top: 20%;
@@ -32,4 +32,22 @@ video {
   transition-duration: 0.4s;
   cursor: pointer;
   box-shadow: 5px 5px;
+}
+
+.gallery_tema2 img {
+  width: 80%;
+  height: auto;
+  position: relative;
+  object-fit: cover;
+  margin: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.gallery_tema2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
 }
