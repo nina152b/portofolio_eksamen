@@ -1,5 +1,81 @@
-/*menu opstilling*/
-@media (min-width: 800px) {
+/*menu opstilling til mobil */
+.hidden {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+#menuknap {
+  display: inline-block;
+  color: #ff6143;
+  font-size: 1, 6rem;
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top left;
+}
+
+@media only screen and (min-width: 700px) {
+  #menuknap {
+    display: none;
+  }
+
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #menu li {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 700px) {
+  a {
+    font-family: "Playfair Display", serif;
+    color: #5f5f5f;
+    padding: 6px;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+}
+
+/*menu opstilling til iPad */
+@media (min-width: 700px) {
+  .menu {
+    display: flex;
+    justify-content: right;
+  }
+
+  a {
+    color: #262526;
+    text-shadow: 1px 1px #bebdbf;
+    justify-content: center;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    justify-content: center;
+  }
+
+  a:hover {
+    color: lawngreen;
+    text-shadow: 2px 2px hotpink;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+  }
+}
+
+/*menu opstilling til desktop*/
+@media (min-width: 1000px) {
   .menu {
     display: flex;
     justify-content: right;
