@@ -1,3 +1,42 @@
+/*menu opstilling*/
+@media (min-width: 800px) {
+  .menu {
+    display: flex;
+    justify-content: right;
+  }
+
+  a {
+    color: #262526;
+    text-shadow: 1px 1px #bebdbf;
+    justify-content: center;
+    margin: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+  }
+
+  a:hover {
+    color: lawngreen;
+    text-shadow: 2px 2px hotpink;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+  }
+}
+
+/* generelt */
+h1 {
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
 /* Til justering af video */
 
 video {
