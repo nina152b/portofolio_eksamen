@@ -2,9 +2,40 @@
 #first_section {
   width: 100%;
   height: 100vh;
-  background-image: url(photo/ninacv.jpg);
+  background-image: url(photo/the_face.png);
   background-size: cover;
   background-position: 25% 10%;
+}
+/* forsøg på et sjovt splashbillede til desktop*/
+.eye {
+  position: absolute;
+  width: 94%;
+  height: 88%;
+  background-image: url(photo/eye_retouch_2.png);
+  background-size: 100%;
+  top: 35%;
+  left: 1%;
+}
+
+.eye {
+  animation-name: eye_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes eye_kf {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /*forside tema knapper i grid på mobil */
