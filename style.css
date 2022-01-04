@@ -7,10 +7,106 @@
   background-position: 25% 10%;
 }
 
+/*forside tema knapper i grid på mobil */
 @media (max-width: 700px) {
   #second_section {
     display: grid;
     justify-content: center;
+  }
+
+  .mig_knap {
+    border: none;
+    border-radius: 12%;
+    color: black;
+    background-color: #f2daac;
+    padding: 40px 150px;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    box-shadow: 4px 3px;
+    margin: 30px;
+  }
+
+  .box_mig {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .t2_knap {
+    border: none;
+    border-radius: 12%;
+    color: black;
+    background-color: #f2daac;
+    padding: 40px 150px;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    box-shadow: 4px 3px;
+    margin: 20px;
+  }
+
+  .box_t2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .t3_knap {
+    border: none;
+    border-radius: 12%;
+    color: black;
+    background-color: #f2daac;
+    padding: 40px 150px;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    box-shadow: 4px 3px;
+    margin: 20px;
+  }
+
+  .box_t3 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .t4_knap {
+    border: none;
+    border-radius: 12%;
+    color: black;
+    background-color: #f2daac;
+    padding: 40px 150px;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    box-shadow: 4px 3px;
+    margin: 20px;
+  }
+
+  .box_t4 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .t5_knap {
+    border: none;
+    border-radius: 12%;
+    color: black;
+    background-color: #f2daac;
+    padding: 40px 150px;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    box-shadow: 4px 3px;
+    margin: 20px;
+  }
+
+  .box_t5 {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
@@ -293,7 +389,6 @@ h1 {
 }
 
 /* Til justering af video */
-
 video {
   left: 10%;
   top: 20%;
