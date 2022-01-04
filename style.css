@@ -7,42 +7,52 @@
   background-position: 25% 10%;
 }
 
-#second_section {
-  display: grid;
-  justify-content: space-evenly;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+@media (max-width: 700px) {
+  #second_section {
+    display: grid;
+    justify-content: center;
+  }
 }
 
-.box_t2 {
-  display: grid;
-  justify-content: center;
-  grid-column: 1/2;
-  grid-row: 1/2;
+/* forside tema knapper i grid på desktop */
+@media (min-width: 700px) {
+  #second_section {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .box_t2 {
+    display: grid;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .box_t3 {
+    display: grid;
+    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .box_t4 {
+    display: grid;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .box_t5 {
+    display: grid;
+    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
 }
 
-.box_t3 {
-  display: grid;
-  justify-content: center;
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-
-.box_t4 {
-  display: grid;
-  justify-content: center;
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-
-.box_t5 {
-  display: grid;
-  justify-content: center;
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-
-/* forside knappen til om mig siden */
+/* forside knappen til om mig siden (stilling) */
 .mig_knap {
   border: none;
   color: black;
@@ -58,7 +68,7 @@
   box-shadow: 5px 5px;
 }
 
-/* forside knappen til tema 2 */
+/* forside knappen til tema 2 (stilling)*/
 .t2_knap {
   border: none;
   color: black;
@@ -74,7 +84,7 @@
   box-shadow: 5px 5px;
 }
 
-/* forside knappen til tema 3 */
+/* forside knappen til tema 3 (stilling) */
 .t3_knap {
   border: none;
   color: black;
@@ -90,7 +100,7 @@
   box-shadow: 5px 5px;
 }
 
-/* forside knappen til tema 4 */
+/* forside knappen til tema 4 (stilling)*/
 .t4_knap {
   border: none;
   color: black;
@@ -106,7 +116,7 @@
   box-shadow: 5px 5px;
 }
 
-/* forside knappen til tema 5 */
+/* forside knappen til tema 5 (stilling) */
 .t5_knap {
   border: none;
   color: black;
