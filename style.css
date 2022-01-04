@@ -71,6 +71,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: 50%;
   }
 
   .box_mig {
