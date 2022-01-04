@@ -8,8 +8,90 @@
 }
 
 #second_section {
-  margin-top: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
+/* forside knappen til om mig siden */
+.mig_knap {
+  border: none;
+  color: black;
+  background-color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
+/* forside knappen til tema 2 */
+.t2_knap {
+  border: none;
+  color: black;
+  background-color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
+/* forside knappen til tema 3 */
+.t3_knap {
+  border: none;
+  color: black;
+  background-color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
+/* forside knappen til tema 4 */
+.t4_knap {
+  border: none;
+  color: black;
+  background-color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
+/* forside knappen til tema 5 */
+.t5_knap {
+  border: none;
+  color: black;
+  background-color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
 /*menu opstilling til mobil */
 .hidden {
   transform: translateX(-100%);
