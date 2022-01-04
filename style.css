@@ -9,7 +9,29 @@
 
 #second_section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box_t2 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.box_t3 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.box_t4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.box_t5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 /* forside knappen til om mig siden */
