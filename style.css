@@ -101,6 +101,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    opacity: 50%;
   }
 
   /* forside knappen til tema 3 (stilling) */
@@ -118,6 +119,14 @@
     transition-duration: 0.4s;
     cursor: pointer;
     box-shadow: 5px 5px;
+  }
+
+  .t3_knap:hover {
+    width: 100%;
+    background-image: url(photo/tema3_knap.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
   }
 
   /* forside knappen til tema 4 (stilling)*/
