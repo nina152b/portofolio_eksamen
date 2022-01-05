@@ -2,41 +2,40 @@
 #first_section {
   width: 100%;
   height: 100vh;
-  background-image: url(photo/the_face.png);
+  background-image: url(photo/mountain.jpg);
   background-size: cover;
   background-position: 25% 10%;
 }
-/* forsøg på et sjovt splashbillede til desktop*/
+/* forsøg på et sjovt splashbillede til desktop
 .eye {
   position: absolute;
-  width: 94%;
-  height: 88%;
-  background-image: url(photo/eye_retouch_2.png);
+  width: 23%;
+  height: 23%;
+  background-image: url(photo/eye2_portfolio_eksamen.png);
   background-size: 100%;
-  top: 35%;
-  left: 1%;
+  top: 68%;
+  left: 35%;
 }
 
 .eye {
   animation-name: eye_kf;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
+  animation-timing-function: linear;
+  transform-origin: center;
 }
 
 @keyframes eye_kf {
   0% {
     transform: rotate(0);
   }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
   100% {
     transform: rotate(360deg);
   }
 }
+
+*/
 
 /*forside tema knapper i grid på mobil */
 @media (max-width: 700px) {
