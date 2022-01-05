@@ -24,8 +24,8 @@
   .mig_knap {
     border: none;
     border-radius: 12%;
-    color: black;
-    background-color: #f2daac;
+    color: #032623;
+    background-color: #f2f2f2;
     padding: 40px 150px;
     text-decoration: none;
     font-size: 12px;
@@ -43,8 +43,8 @@
   .t2_knap {
     border: none;
     border-radius: 12%;
-    color: black;
-    background-color: #f2daac;
+    color: #032623;
+    background-color: #f2f2f2;
     padding: 40px 150px;
     text-decoration: none;
     font-size: 12px;
@@ -62,8 +62,8 @@
   .t3_knap {
     border: none;
     border-radius: 12%;
-    color: black;
-    background-color: #f2daac;
+    color: #032623;
+    background-color: #f2f2f2;
     padding: 40px 150px;
     text-decoration: none;
     font-size: 12px;
@@ -81,8 +81,8 @@
   .t4_knap {
     border: none;
     border-radius: 12%;
-    color: black;
-    background-color: #f2daac;
+    color: #032623;
+    background-color: #f2f2f2;
     padding: 40px 150px;
     text-decoration: none;
     font-size: 12px;
@@ -100,8 +100,8 @@
   .t5_knap {
     border: none;
     border-radius: 12%;
-    color: black;
-    background-color: #f2daac;
+    color: #032623;
+    background-color: #f2f2f2;
     padding: 40px 150px;
     text-decoration: none;
     font-size: 12px;
@@ -157,9 +157,9 @@
   /* forside knappen til om mig siden (stilling) */
   .mig_knap {
     border: none;
-    border-radius: 50%;
-    color: black;
-    background-color: #f2daac;
+    border-radius: 5%;
+    color: #032623;
+    background-color: #f2f2f2;
     padding: 60px 160px;
     text-decoration: none;
     font-size: 16px;
@@ -185,8 +185,8 @@
   .t2_knap {
     border: none;
     border-radius: 5%;
-    color: black;
-    background-color: #f2daac;
+    color: #032623;
+    background-color: #f2f2f2;
     padding: 60px 160px;
     text-align: center;
     text-decoration: none;
@@ -210,8 +210,8 @@
   .t3_knap {
     border: none;
     border-radius: 5%;
-    color: black;
-    background-color: #f2daac;
+    color: #032623;
+    background-color: #f2f2f2;
     padding: 60px 160px;
     text-align: center;
     text-decoration: none;
@@ -235,8 +235,8 @@
   .t4_knap {
     border: none;
     border-radius: 5%;
-    color: black;
-    background-color: #f2daac;
+    color: #032623;
+    background-color: #f2f2f2;
     padding: 60px 160px;
     text-align: center;
     text-decoration: none;
@@ -259,8 +259,8 @@
   .t5_knap {
     border: none;
     border-radius: 5%;
-    color: black;
-    background-color: #f2daac;
+    color: #032623;
+    background-color: #f2f2f2;
     padding: 60px 160px;
     text-align: center;
     text-decoration: none;
@@ -288,8 +288,8 @@
 
 #menuknap {
   display: inline-block;
-  color: #ff6143;
-  font-size: 1, 6rem;
+  color: #032623;
+  font-size: 2rem;
 }
 
 #menu {
@@ -331,7 +331,7 @@
   }
 
   a {
-    color: #262526;
+    color: #032623;
     text-shadow: 1px 1px #bebdbf;
     justify-content: center;
     margin: 20px;
@@ -349,8 +349,8 @@
   }
 
   a:hover {
-    color: lawngreen;
-    text-shadow: 2px 2px hotpink;
+    color: #f2f2f2;
+    text-shadow: 2px 2px #2c4040;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 20px;
   }
@@ -364,8 +364,8 @@
   }
 
   a {
-    color: #262526;
-    text-shadow: 1px 1px #bebdbf;
+    color: #032623;
+    text-shadow: 1px 1px #a6a197;
     justify-content: center;
     margin: 40px;
     text-decoration: none;
@@ -382,8 +382,8 @@
   }
 
   a:hover {
-    color: lawngreen;
-    text-shadow: 2px 2px hotpink;
+    color: #f2f2f2;
+    text-shadow: 2px 2px #2c4040;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 40px;
   }
