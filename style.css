@@ -7,6 +7,13 @@
   background-position: 25% 70%;
 }
 
+/* footer */
+.footer_regel {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
 /* Tekst på forsiden som står vertikalt i desktop mode */
 .text {
   writing-mode: vertical-rl;
