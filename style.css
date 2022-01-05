@@ -411,6 +411,8 @@ video {
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
   padding: 20px;
   margin: 20px;
+  position: relative;
+  z-index: 100%;
 
   aspect-ratio: 16/9;
 }
@@ -418,7 +420,7 @@ video {
 /* CV sektionen på om mig siden */
 .mig {
   overflow: hidden;
-  max-width: 30ch;
+  max-width: 50ch;
   line-height: 1.6;
   text-align: left;
   margin: 20px;
@@ -429,6 +431,17 @@ article {
   grid-column: 2;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.photo_nina {
+  width: 60%;
+  height: auto;
+  display: block;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  object-fit: cover;
 }
 
 /* tema 2 siden */
