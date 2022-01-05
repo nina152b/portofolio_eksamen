@@ -418,7 +418,7 @@ video {
 /* CV sektionen på om mig siden */
 .mig {
   text-align: justify;
-  margin: 20px; /*space around an element */
+  margin: 20px;
   padding: 20px;
 }
 
