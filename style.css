@@ -160,12 +160,13 @@
     border-radius: 5%;
     color: #032623;
     background-color: #f2f2f2;
-    padding: 60px 160px;
+    padding: 60px 130px;
     text-decoration: none;
     font-size: 16px;
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
+    margin: 60px;
   }
 
   .mig_knap:hover {
@@ -187,7 +188,7 @@
     border-radius: 5%;
     color: #032623;
     background-color: #f2f2f2;
-    padding: 60px 160px;
+    padding: 60px 130px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -212,7 +213,7 @@
     border-radius: 5%;
     color: #032623;
     background-color: #f2f2f2;
-    padding: 60px 160px;
+    padding: 60px 130px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -237,7 +238,7 @@
     border-radius: 5%;
     color: #032623;
     background-color: #f2f2f2;
-    padding: 60px 160px;
+    padding: 60px 130px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -261,7 +262,7 @@
     border-radius: 5%;
     color: #032623;
     background-color: #f2f2f2;
-    padding: 60px 160px;
+    padding: 60px 130px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
