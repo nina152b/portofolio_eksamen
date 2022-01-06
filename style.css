@@ -678,6 +678,15 @@ video {
   box-shadow: 4px 3px;
 }
 
+.aflevering1_t3:hover {
+  width: 29%;
+  background-image: url(photo/knap_t-shirt_UNITAS_tema_3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 20%;
+  opacity: 50%;
+}
+
 .aflevering2_t3 {
   border: none;
   border-radius: 5%;
@@ -691,6 +700,15 @@ video {
   transition-duration: 0.6s;
   cursor: pointer;
   box-shadow: 4px 3px;
+}
+
+.aflevering2_t3:hover {
+  width: 29%;
+  background-image: url(photo/tema3_knap2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 20%;
+  opacity: 50%;
 }
 
 /* tema 4 siden */
