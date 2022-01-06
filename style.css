@@ -902,7 +902,7 @@ video {
 
 /* TEMA 4 */
 
-/* Dokumentationssides knappen på mobil*/
+/* Dokumentationssides knappen + tekst på mobil*/
 @media (max-width: 700px) {
   .tema_4_doku {
     border: none;
@@ -935,11 +935,35 @@ video {
     transition-duration: 0.4s;
     cursor: pointer;
     box-shadow: 5px 5px;
+    margin-top: 20px;
   }
 
   .box_spil_knap {
     display: grid;
     justify-content: center;
+  }
+
+  /*tekst */
+  .tekst_t4 {
+    max-width: 120ch;
+    padding: 20px;
+    padding-top: 0px;
+    line-height: 1.4;
+    padding-left: 20px;
+    text-align-last: left;
+  }
+
+  .tekst2_t4 {
+    max-width: 120ch;
+    padding: 20px;
+    padding-top: 25px;
+    line-height: 1.4;
+    padding-left: 20px;
+    text-align-last: left;
+  }
+
+  .spil_tekst {
+    padding-left: 35px;
   }
 }
 
