@@ -458,7 +458,16 @@ video {
 
 /* tema 2 siden */
 
-/*knap til opagven*/
+@media (max-width: 700px) {
+  .gallery_tema2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    place-content: center;
+  }
+}
+
+/*knap til opgaven*/
 .tema_2_opgave {
   border: none;
   color: black;
@@ -479,36 +488,19 @@ video {
   height: auto;
   position: relative;
   object-fit: cover;
-  margin: 20px;
-  padding: 20px;
-  justify-content: space-between;
+  justify-content: center;
+  display: grid;
 }
 
 .gallery_tema2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
   margin: 20px;
   padding: 20px;
 }
 
-/*Tema 3 siden*/
-
-/* knap til første bilag*/
-.tema_3_bilag1 {
-  border: none;
-  color: black;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  box-shadow: 5px 5px;
-}
-
+/* stilling til alle paragraferne på tema 2 siden */
 .p1_t2 {
   display: flex;
   justify-content: center;
@@ -530,6 +522,7 @@ video {
   padding: 20px;
   padding-top: 0px;
   line-height: 1.4;
+  padding-left: 80px;
 }
 
 .p4_t2 {
@@ -537,6 +530,7 @@ video {
   padding: 20px;
   padding-top: 0px;
   line-height: 1.4;
+  padding-left: 80px;
 }
 
 .p5_t2 {
@@ -544,6 +538,7 @@ video {
   padding: 20px;
   padding-top: 0px;
   line-height: 1.4;
+  padding-left: 80px;
 }
 
 .p6_t2 {
@@ -551,6 +546,7 @@ video {
   padding: 20px;
   padding-top: 0px;
   line-height: 1.4;
+  padding-left: 80px;
 }
 
 .p7_t2 {
@@ -558,6 +554,7 @@ video {
   padding: 20px;
   padding-top: 0px;
   line-height: 1.4;
+  padding-left: 80px;
 }
 
 .p8_t2 {
@@ -565,6 +562,7 @@ video {
   padding: 20px;
   padding-top: 0px;
   line-height: 1.4;
+  padding-left: 80px;
 }
 
 .mini_titel_t2 {
@@ -572,9 +570,27 @@ video {
   padding-left: 50px;
 }
 
+/* en sektion til de 2 første paragrafer på siden */
 #section1_t2 {
   display: grid;
   justify-content: center;
+}
+
+/*Tema 3 siden*/
+
+/* knap til første bilag*/
+.tema_3_bilag1 {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 5px 5px;
 }
 
 /* knap til andet bilag*/
