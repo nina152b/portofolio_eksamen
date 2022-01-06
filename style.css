@@ -1,3 +1,26 @@
+/* GENEREL CSS TIL ALLE HTML SIDER */
+@media (min-width: 700px) {
+  h1 {
+    font-size: 3rem;
+    font-family: "Courier New", Courier, monospace;
+    padding: 20px;
+    margin: 31px;
+    text-align: center;
+    padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 2rem;
+    font-family: "Courier New", Courier, monospace;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+}
+
 /* splashbilledet */
 #first_section {
   width: 100%;
@@ -396,16 +419,6 @@
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 40px;
   }
-}
-
-/* generelt */
-h1 {
-  font-size: 3rem;
-  font-family: "Courier New", Courier, monospace;
-  padding: 20px;
-  margin: 30px;
-  text-align: center;
-  padding-bottom: 90px;
 }
 
 /* Til justering af video */
