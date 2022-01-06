@@ -1025,13 +1025,13 @@ video {
     position: relative;
   }
 
-  /*animation af manden*/
+  /*animation af manden UNFINISHED 
   .animation_t4 {
     position: absolute;
-    width: 25%;
+    width: 20%;
     background-size: 100%;
-    top: 107%;
-    left: 14%;
+    top: 110%;
+    left: 12%;
   }
 
   .animation_t4 {
@@ -1054,4 +1054,6 @@ video {
       transform: scale(0.9);
     }
   }
+
+  */
 }
