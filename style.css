@@ -1020,4 +1020,23 @@ video {
     line-height: 1.4;
     padding-left: 80px;
   }
+
+  /*animation af manden*/
+  .animation_t4 {
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-image: url(animation/smilet.svg);
+    background-size: 100%;
+    width: 30%;
+    top: 431%;
+    position: absolute;
+    left: -276%;
+  }
+
+  .animation_mand_t4 {
+    position: relative;
+  }
 }
