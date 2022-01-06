@@ -469,7 +469,7 @@ video {
   object-fit: cover;
 }
 
-/* tema 2 siden */
+/* TEMA 2 */
 
 @media (max-width: 700px) {
   .gallery_tema2 {
@@ -496,13 +496,13 @@ video {
     border-radius: 12%;
     color: #032623;
     background-color: #f2f2f2;
-    padding: 40px 150px;
+    padding: 40px 110px;
     text-decoration: none;
     font-size: 12px;
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
-    margin: 20px;
+    margin: 1px;
   }
 }
 
@@ -631,7 +631,7 @@ video {
   justify-content: center;
 }
 
-/*Tema 3 siden*/
+/* TEMA 3 */
 
 /* knap til første bilag*/
 .tema_3_bilag1 {
@@ -663,19 +663,20 @@ video {
   box-shadow: 5px 5px;
 }
 
+/* Afleveringsknapperne til Tema 3 MOBIL */
 @media (max-width: 700px) {
   .aflevering1_t3 {
     border: none;
     border-radius: 12%;
     color: #032623;
     background-color: #f2f2f2;
-    padding: 40px 150px;
+    padding: 40px 110px;
     text-decoration: none;
     font-size: 12px;
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
-    margin: 20px;
+    margin: 1px;
   }
 
   .aflevering2_t3 {
@@ -683,13 +684,13 @@ video {
     border-radius: 12%;
     color: #032623;
     background-color: #f2f2f2;
-    padding: 40px 150px;
+    padding: 40px 110px;
     text-decoration: none;
     font-size: 12px;
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
-    margin: 20px;
+    margin: 1px;
   }
 }
 
@@ -747,6 +748,10 @@ video {
     display: grid;
     justify-content: center;
   }
+}
+
+/* Paragrafernes opsætning MOBIL */
+@media (max-width: 700px) {
 }
 
 /* tema 4 siden */
