@@ -692,6 +692,11 @@ video {
     box-shadow: 4px 3px;
     margin: 1px;
   }
+
+  .afleveringer_t3 {
+    display: grid;
+    justify-content: center;
+  }
 }
 
 /* afleveringsknapperne på tema 3 DESKTOP */
