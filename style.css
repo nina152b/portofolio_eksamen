@@ -973,7 +973,7 @@ video {
   }
 }
 
-/* Dokumentationssides knappen på DESKTOP*/
+/* Dokumentationssides knappen + tekst på DESKTOP*/
 @media (min-width: 700px) {
   .tema_4_doku {
     border: none;
@@ -1014,18 +1014,19 @@ video {
   }
 
   .tekst_t4 {
-    max-width: 120ch;
+    max-width: 100ch;
     padding: 20px;
     padding-top: 0px;
     line-height: 1.4;
     padding-left: 80px;
+    padding-left: 300px;
   }
 
+  /*animation af manden UNFINISHED 
   .animation_mand_t4 {
     position: relative;
   }
 
-  /*animation af manden UNFINISHED 
   .animation_t4 {
     position: absolute;
     width: 20%;
