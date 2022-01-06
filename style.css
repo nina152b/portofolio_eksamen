@@ -1023,17 +1023,12 @@ video {
 
   /*animation af manden*/
   .animation_t4 {
-    display: grid;
-    justify-content: center;
     position: absolute;
     width: 25%;
-    height: 25%;
     background-image: url(animation/smilet.svg);
     background-size: 100%;
-    width: 30%;
-    top: 431%;
-    position: absolute;
-    left: -276%;
+    top: 15%;
+    left: 25%;
   }
 
   .animation_mand_t4 {
