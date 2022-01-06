@@ -435,7 +435,7 @@ video {
 
 .class_video {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 /* sektion til teksten og videoen */
@@ -507,6 +507,74 @@ video {
   transition-duration: 0.4s;
   cursor: pointer;
   box-shadow: 5px 5px;
+}
+
+.p1_t2 {
+  display: flex;
+  justify-content: center;
+  max-width: 100ch;
+  padding: 20px;
+  padding-bottom: 0px;
+  line-height: 1.4;
+}
+
+.p2_t2 {
+  max-width: 120ch;
+  padding: 20px;
+  padding-top: 0px;
+  line-height: 1.4;
+}
+
+.p3_t2 {
+  max-width: 120ch;
+  padding: 20px;
+  padding-top: 0px;
+  line-height: 1.4;
+}
+
+.p4_t2 {
+  max-width: 120ch;
+  padding: 20px;
+  padding-top: 0px;
+  line-height: 1.4;
+}
+
+.p5_t2 {
+  max-width: 120ch;
+  padding: 20px;
+  padding-top: 0px;
+  line-height: 1.4;
+}
+
+.p6_t2 {
+  max-width: 120ch;
+  padding: 20px;
+  padding-top: 0px;
+  line-height: 1.4;
+}
+
+.p7_t2 {
+  max-width: 120ch;
+  padding: 20px;
+  padding-top: 0px;
+  line-height: 1.4;
+}
+
+.p8_t2 {
+  max-width: 120ch;
+  padding: 20px;
+  padding-top: 0px;
+  line-height: 1.4;
+}
+
+.mini_titel_t2 {
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+#section1_t2 {
+  display: grid;
+  justify-content: center;
 }
 
 /* knap til andet bilag*/
