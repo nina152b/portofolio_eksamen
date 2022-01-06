@@ -696,6 +696,7 @@ video {
   .afleveringer_t3 {
     display: grid;
     justify-content: center;
+    padding-top: 5%;
   }
 }
 
@@ -816,8 +817,32 @@ video {
 
   .dekstop1_t3 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 0.5fr));
     gap: 10px;
+    padding-left: 90px;
+  }
+
+  .desktop_bilag1_t3 {
+    display: grid;
+    justify-content: center;
+    padding-top: 40%;
+  }
+
+  .dekstop2_t3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 0.5fr));
+    gap: 10px;
+    padding-left: 90px;
+  }
+
+  .desktop_bilag2_t3 {
+    display: grid;
+    justify-content: center;
+    padding-top: 15%;
+  }
+
+  .afleveringer_t3 {
+    padding-top: 5%;
   }
 }
 
