@@ -1185,35 +1185,35 @@ video {
     padding-left: 405px;
     margin-top: 60px;
   }
+}
 
-  .animation1_t4 {
-    position: absolute;
-    width: 25%;
-    height: 25%;
-    aspect-ratio: 155/150;
-    background-size: 100%;
-    transform-origin: center;
-    top: 50%;
-    left: 60%;
+.animation1_t4 {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  aspect-ratio: 155/150;
+  background-size: 100%;
+  transform-origin: center;
+  top: 50%;
+  left: 60%;
+}
+
+.animation1_t4 {
+  animation-name: ani1_t4_kf;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  transform-origin: center;
+  opacity: 30%;
+}
+
+@keyframes ani1_t4_kf {
+  0% {
+    transform: rotate(0);
   }
 
-  .animation1_t4 {
-    animation-name: ani1_t4_kf;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    animation-timing-function: linear;
-    transform-origin: center;
-    opacity: 30%;
-  }
-
-  @keyframes ani1_t4_kf {
-    0% {
-      transform: rotate(0);
-    }
-
-    100% {
-      transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
   }
 }
