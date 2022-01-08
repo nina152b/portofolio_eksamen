@@ -656,6 +656,36 @@ video {
   justify-content: center;
 }
 
+/* animation på tema 2 */
+.animation_t2 {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  aspect-ratio: 230/185;
+  background-size: 100%;
+  top: 150%;
+  left: 38%;
+  opacity: 30%;
+}
+
+.animation_t2 {
+  animation-name: beige_kf;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+@keyframes beige_kf {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* TEMA 3 */
 
 /* Bilagknapperne til Tema 3 MOBIL */
