@@ -1128,9 +1128,9 @@ video {
 /* Dokumentationssides knappen + tekst på DESKTOP*/
 @media (min-width: 700px) {
   .tema_4_doku {
-    border: none;
-    color: black;
-    padding: 16px 32px;
+    border-radius: 70% 30% 90% 70%;
+    color: #f2f2f2;
+    padding: 65px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -1139,6 +1139,8 @@ video {
     transition-duration: 0.4s;
     cursor: pointer;
     box-shadow: 5px 5px;
+    background-color: #2c4040;
+    border: none;
   }
 
   .tema4_doku_box {
@@ -1148,16 +1150,26 @@ video {
 
   .tema_4_spil {
     border: none;
-    color: black;
-    padding: 16px 32px;
+    border-radius: 5%;
+    color: #032623;
+    background-color: #f2f2f2;
+    padding: 60px 130px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
+    transition-duration: 0.6s;
     cursor: pointer;
-    box-shadow: 5px 5px;
+    box-shadow: 4px 3px;
+  }
+
+  .tema_4_spil:hover {
+    width: 100%;
+    background-image: url(photo/fransk_spil.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 20%;
+    opacity: 50%;
   }
 
   .box_spil_knap {
