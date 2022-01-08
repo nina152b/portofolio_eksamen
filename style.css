@@ -1166,12 +1166,10 @@ video {
   }
 
   .tekst_t4 {
-    max-width: 100ch;
-    padding: 20px;
+    max-width: 90ch;
     padding-top: 0px;
     line-height: 1.4;
-    padding-left: 80px;
-    padding-left: 300px;
+    padding-left: 105px;
   }
 
   .tekst2_t4 {
