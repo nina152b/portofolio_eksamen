@@ -1107,6 +1107,8 @@ video {
     line-height: 1.4;
     padding-left: 20px;
     text-align-last: left;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .tekst2_t4 {
@@ -1170,6 +1172,20 @@ video {
     line-height: 1.4;
     padding-left: 80px;
     padding-left: 300px;
+  }
+
+  .tekst2_t4 {
+    max-width: 100ch;
+    padding: 20px;
+    padding-top: 0px;
+    line-height: 1.4;
+    padding-left: 80px;
+    padding-left: 300px;
+  }
+
+  .spil_tekst {
+    padding-left: 405px;
+    margin-top: 60px;
   }
 
   /*animation af manden UNFINISHED 
