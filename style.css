@@ -1344,6 +1344,7 @@ video {
   .tema5_bilag1 {
     display: grid;
     justify-content: center;
+    padding-right: 80px;
   }
 
   .tema_5_dokumentation {
@@ -1365,6 +1366,7 @@ video {
   .tema5_doku_knap {
     display: grid;
     justify-content: center;
+    margin-top: 120px;
   }
 
   .tema_5_gamle {
@@ -1461,5 +1463,46 @@ video {
   .h3_2_t5 {
     padding-left: 29px;
     padding-top: 30px;
+  }
+}
+
+/* tekst opstilling DESKTOP*/
+@media (min-width: 700px) {
+  .section1_t5 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+
+  .p1_t5 {
+    max-width: 120ch;
+    line-height: 1.4;
+    padding-left: 40px;
+  }
+
+  .section2_tema5 {
+    display: flex;
+    margin-top: 60px;
+  }
+
+  .p2_t5 {
+    max-width: 100ch;
+    line-height: 1.4;
+    margin-left: 39px;
+  }
+
+  .p3_t5 {
+    max-width: 100ch;
+    line-height: 1.4;
+    margin-right: 39px;
+  }
+
+  .h3_1_t5 {
+    padding-top: 55px;
+  }
+
+  .h3_2_t5 {
+    padding-top: 40px;
   }
 }
