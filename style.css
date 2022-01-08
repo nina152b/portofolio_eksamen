@@ -1364,7 +1364,7 @@ video {
   .tema_5_gamle {
     border-radius: 70% 30% 90% 70%;
     color: #f2f2f2;
-    padding: 65px 40px;
+    padding: 40px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -1399,10 +1399,10 @@ video {
 
   .tema_5_nye:hover {
     width: 110%;
-    background-image: url(photo/la_petanque_knap.JPG);
+    background-image: url(photo/tema5_knap_aflevering.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 80% 75%;
+    background-position: 80% 63%;
     opacity: 50%;
   }
 
