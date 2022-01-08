@@ -1274,6 +1274,8 @@ video {
   .tema5_doku_knap {
     display: grid;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .tema_5_gamle {
@@ -1295,6 +1297,8 @@ video {
   .tema5_gamleweb {
     display: grid;
     justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   /*afleveringsopgaven knap */
   .tema_5_nye {
@@ -1314,6 +1318,8 @@ video {
   .tema5_nyeweb {
     display: grid;
     justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
@@ -1414,4 +1420,46 @@ video {
 
 /* tekst opstilling mobil*/
 @media (max-width: 700px) {
+  .p1_t5 {
+    max-width: 140ch;
+    padding: 20px;
+    padding-top: 0px;
+    line-height: 1.4;
+    padding-left: 20px;
+    text-align-last: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .p2_t5 {
+    max-width: 140ch;
+    padding: 20px;
+    padding-top: 0px;
+    line-height: 1.4;
+    padding-left: 20px;
+    text-align-last: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+  }
+
+  .p3_t5 {
+    max-width: 140ch;
+    padding: 20px;
+    padding-top: 0px;
+    line-height: 1.4;
+    padding-left: 20px;
+    text-align-last: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .h3_1_t5 {
+    padding-left: 29px;
+  }
+
+  .h3_2_t5 {
+    padding-left: 29px;
+    padding-top: 30px;
+  }
 }
