@@ -405,6 +405,9 @@ h3 {
     gap: 15px;
     list-style: none;
     justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 41px;
+    margin-left: 58px;
   }
 
   a:hover {
@@ -435,9 +438,12 @@ h3 {
   ul {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     list-style: none;
     justify-content: center;
+    margin-bottom: 120px;
+    margin-left: 249px;
+    margin-top: 30px;
   }
 
   a:hover {
