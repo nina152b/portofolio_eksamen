@@ -388,6 +388,10 @@ h3 {
   .menu {
     display: flex;
     justify-content: right;
+    position: fixed;
+    background-color: #f2f2f2;
+    border-radius: 55% 30% 60% 70%;
+    height: 79.5px;
   }
 
   a {
@@ -424,6 +428,9 @@ h3 {
   .menu {
     display: flex;
     justify-content: right;
+    height: 79.5px;
+    background-color: #f2f2f2;
+    border-radius: 55% 30% 60% 70%;
   }
 
   a {
