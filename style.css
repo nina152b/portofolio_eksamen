@@ -502,6 +502,7 @@ video {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 10px;
     place-content: center;
+    margin-left: 84px;
   }
 
   .gallery_tema2 img {
@@ -1366,7 +1367,7 @@ video {
   .tema5_doku_knap {
     display: grid;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 10px;
   }
 
   .tema_5_gamle {
@@ -1493,13 +1494,14 @@ video {
   }
 
   .p3_t5 {
-    max-width: 100ch;
     line-height: 1.4;
     margin-right: 39px;
+    max-width: 90ch;
+    margin-left: 56px;
   }
 
   .h3_1_t5 {
-    padding-top: 55px;
+    padding-top: 80px;
     margin-left: 300px;
   }
 
