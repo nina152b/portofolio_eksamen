@@ -2,7 +2,7 @@
 @media (min-width: 700px) {
   h1 {
     font-size: 3rem;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Oooh Baby", cursive;
     padding: 20px;
     margin: 30px;
     text-align: center;
@@ -13,7 +13,7 @@
 @media (max-width: 700px) {
   h1 {
     font-size: 2rem;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Oooh Baby", cursive;
     padding: 10px;
     margin: 20px;
     text-align: center;
