@@ -42,7 +42,10 @@
 .text {
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  font-size: 1.6rem;
+  font-size: 2.3rem;
+  font-family: "Oooh Baby", cursive;
+  line-height: 0.5;
+  margin-left: 14px;
 }
 
 /*forside tema knapper i grid på mobil */
@@ -328,6 +331,7 @@
   list-style-type: none;
   transition: transform 0.3s;
   transform-origin: top left;
+  margin-left: 8px;
 }
 
 @media only screen and (min-width: 700px) {
