@@ -828,7 +828,7 @@ video {
 @media (max-width: 700px) {
   /* knap til første bilag*/
   .tema_3_bilag1 {
-    border-radius: 3%;
+    border-radius: 70% 40% 80% 80%;
     color: #f2f2f2;
     padding: 15px 35px;
     text-align: center;
@@ -845,7 +845,7 @@ video {
 
   /* knap til andet bilag*/
   .tema_3_bilag2 {
-    border-radius: 3%;
+    border-radius: 70% 30% 90% 70%;
     color: #f2f2f2;
     padding: 15px 35px;
     text-align: center;
