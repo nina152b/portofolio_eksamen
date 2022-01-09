@@ -82,6 +82,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 30px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .box_mig {
@@ -101,6 +102,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 20px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .box_t2 {
@@ -120,6 +122,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 20px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .box_t3 {
@@ -139,6 +142,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 20px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .box_t4 {
@@ -158,6 +162,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 20px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .box_t5 {
@@ -211,11 +216,12 @@ h3 {
     background-color: #f2f2f2;
     padding: 60px 130px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.5rem;
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 60px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .mig_knap:hover {
@@ -245,10 +251,10 @@ h3 {
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .t2_knap:hover {
-    width: 100%;
     background-image: url(photo/tema_2_computer.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,10 +276,10 @@ h3 {
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .t3_knap:hover {
-    width: 100%;
     background-image: url(photo/tema3_knap.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -295,6 +301,7 @@ h3 {
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .t4_knap:hover {
@@ -319,6 +326,7 @@ h3 {
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .t5_knap:hover {
@@ -647,6 +655,7 @@ video {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 1px;
+    font-family: "Ubuntu Mono", monospace;
   }
 }
 
@@ -665,6 +674,7 @@ video {
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
+    font-family: "Ubuntu Mono", monospace;
   }
 
   .tema_2_opgave:hover {
@@ -859,7 +869,7 @@ video {
   /* knap til første bilag*/
   .tema_3_bilag1 {
     border-radius: 70% 30% 30% 70% / 60% 30% 30% 60%;
-    color: #f2f2f2;
+    color: #a6a197;
     padding: 40px 65px;
     text-align: center;
     text-decoration: none;
@@ -946,7 +956,6 @@ video {
   }
 
   .aflevering1_t3:hover {
-    width: 100%;
     background-image: url(photo/knap_t-shirt_UNITAS_tema_3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -970,7 +979,6 @@ video {
   }
 
   .aflevering2_t3:hover {
-    width: 100%;
     background-image: url(photo/tema3_knap2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1284,7 +1292,6 @@ video {
   }
 
   .tema_4_spil:hover {
-    width: 100%;
     background-image: url(photo/fransk_spil.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1528,7 +1535,6 @@ video {
   }
 
   .tema_5_nye:hover {
-    width: 110%;
     background-image: url(photo/tema5_knap_aflevering.png);
     background-repeat: no-repeat;
     background-size: cover;
