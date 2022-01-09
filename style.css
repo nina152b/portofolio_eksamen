@@ -83,7 +83,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 30px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .box_mig {
@@ -103,7 +103,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 20px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .box_t2 {
@@ -123,7 +123,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 20px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .box_t3 {
@@ -143,7 +143,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 20px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .box_t4 {
@@ -163,7 +163,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 20px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .box_t5 {
@@ -222,7 +222,7 @@ h3 {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 60px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .mig_knap:hover {
@@ -252,7 +252,7 @@ h3 {
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .t2_knap:hover {
@@ -277,7 +277,7 @@ h3 {
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .t3_knap:hover {
@@ -302,7 +302,7 @@ h3 {
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .t4_knap:hover {
@@ -327,7 +327,7 @@ h3 {
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .t5_knap:hover {
@@ -357,6 +357,7 @@ h3 {
   transform-origin: top left;
   margin-left: 8px;
   color: #032623;
+  line-height: 1.8rem;
 }
 
 @media only screen and (min-width: 700px) {
@@ -670,7 +671,7 @@ video {
     cursor: pointer;
     box-shadow: 4px 3px;
     margin: 1px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "EB Garamond", serif;
   }
 }
 
@@ -689,7 +690,7 @@ video {
     transition-duration: 0.6s;
     cursor: pointer;
     box-shadow: 4px 3px;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Be Vietnam Pro", sans-serif;
   }
 
   .tema_2_opgave:hover {
