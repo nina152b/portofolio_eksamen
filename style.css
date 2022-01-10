@@ -1833,4 +1833,13 @@ video {
   h2 {
     margin-top: 100px;
   }
+
+  .billede {
+    width: 50%;
+    border-radius: 3%;
+  }
+
+  .code {
+    margin-left: 400px;
+  }
 }
