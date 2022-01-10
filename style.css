@@ -1685,6 +1685,7 @@ video {
 
 /* ___________________ Dokumentations side ________*/
 
+/*Side opstilling på Desktop */
 @media (min-width: 700px) {
   .documentation_moodboard {
     margin-left: 350px;
