@@ -1839,6 +1839,11 @@ video {
     border-radius: 3%;
   }
 
+  .billede1 {
+    width: 80%;
+    border-radius: 3%;
+  }
+
   .code {
     margin-left: 400px;
   }
