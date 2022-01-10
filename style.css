@@ -1879,4 +1879,10 @@ video {
     background-color: #2c4040;
     border: none;
   }
+
+  .gruppering {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+    gap: 10px;
+  }
 }
