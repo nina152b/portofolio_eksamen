@@ -1753,4 +1753,25 @@ video {
     width: 40%;
     margin-left: 500px;
   }
+
+  .favicon {
+    width: 50%;
+    border-radius: 10%;
+  }
+
+  .style {
+    width: 50%;
+    border-radius: 10%;
+  }
+
+  .moodboard_doc {
+    width: 50%;
+    border-radius: 10%;
+  }
+
+  .style_1 {
+    width: 50%;
+    border-radius: 10%;
+  }
+
 }
