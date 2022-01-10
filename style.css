@@ -1687,7 +1687,7 @@ video {
 
 @media (min-width: 700px) {
   .documentation_moodboard {
-    margin-left: 109px;
+    margin-left: 350px;
   }
 
   img {
@@ -1802,5 +1802,13 @@ video {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
+  }
+
+  /* tekst opstilling*/
+
+  .p1_docu {
+    margin-bottom: 40px;
+    margin-left: 300px;
+    max-width: 100ch;
   }
 }
