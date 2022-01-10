@@ -1705,4 +1705,23 @@ video {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
   }
+
+  .try_forside {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-left: 400px;
+    width: 50%;
+  }
+
+  .try_splashbillede {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+
+  .real_splash {
+    width: 130%;
+    margin-top: -50px;
+  }
 }
