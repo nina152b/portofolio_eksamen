@@ -1850,4 +1850,28 @@ video {
     margin-left: 300px;
     margin-right: 90px;
   }
+
+  .bruger {
+    display: grid;
+    justify-content: center;
+  }
+
+  .survey {
+    border-radius: 70% 30% 90% 70%;
+    color: #f2f2f2;
+    padding-bottom: 46px;
+    padding-top: 33px;
+    padding-right: 25px;
+    padding-left: 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 5px 5px;
+    background-color: #2c4040;
+    border: none;
+  }
 }
