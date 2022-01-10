@@ -1685,15 +1685,24 @@ video {
 
 /* ___________________ Dokumentations side ________*/
 
-.documentation_moodboard {
-  margin-left: 109px;
-}
+@media (min-width: 700px) {
+  .documentation_moodboard {
+    margin-left: 109px;
+  }
 
-img {
-  width: 50%;
-  border-radius: 50% 30%;
-}
+  img {
+    width: 50%;
+    border-radius: 50% 30%;
+  }
 
-.documentation_first_styletile {
-  margin-left: 109px;
+  .documentation_first_styletile {
+    margin-left: 400px;
+    margin-bottom: 55px;
+  }
+
+  .documentation_colors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
 }
