@@ -1704,6 +1704,7 @@ video {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
+    margin-left: 100px;
   }
 
   .try_forside {
@@ -1721,8 +1722,9 @@ video {
   }
 
   .real_splash {
-    width: 130%;
-    margin-top: -50px;
+    width: 100%;
+    margin-top: -42px;
+    margin-left: 300px;
   }
 
   .prototype {
@@ -1757,11 +1759,13 @@ video {
   .favicon {
     width: 50%;
     border-radius: 10%;
+    margin-left: 350px;
   }
 
   .style {
     width: 50%;
     border-radius: 10%;
+    margin-left: 350px;
   }
 
   .moodboard_doc {
@@ -1778,30 +1782,36 @@ video {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
+    margin-left: 200px;
   }
 
   .gameboy_illustration {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
+    margin-left: 20px;
   }
 
   .illustrationer_display {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
+    padding-left: 50px;
+    margin-left: 136px;
   }
 
   .hover_effekterne {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
+    padding-left: 76px;
   }
 
   .organic_forms {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
+    margin-left: 131px;
   }
 
   /* tekst opstilling*/
@@ -1810,9 +1820,16 @@ video {
     margin-bottom: 40px;
     margin-left: 300px;
     max-width: 100ch;
+    padding-top: 22px;
+    padding-bottom: 20px;
   }
 
   h3 {
     margin-left: 250px;
+    padding-top: 50px;
+  }
+
+  h2 {
+    margin-top: 100px;
   }
 }
