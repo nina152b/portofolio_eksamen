@@ -1831,7 +1831,7 @@ video {
   }
 
   h2 {
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   .billede {
@@ -1841,5 +1841,13 @@ video {
 
   .code {
     margin-left: 400px;
+  }
+
+  .diverne {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-left: 300px;
+    margin-right: 90px;
   }
 }
