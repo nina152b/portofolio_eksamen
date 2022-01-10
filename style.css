@@ -1682,3 +1682,18 @@ video {
     transform: rotate(360deg);
   }
 }
+
+/* ___________________ Dokumentations side ________*/
+
+.documentation_moodboard {
+  margin-left: 109px;
+}
+
+img {
+  width: 50%;
+  border-radius: 50% 30%;
+}
+
+.documentation_first_styletile {
+  margin-left: 109px;
+}
