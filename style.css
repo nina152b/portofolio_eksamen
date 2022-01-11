@@ -1747,8 +1747,9 @@ video {
   }
 
   .documentation_first_styletile {
-    margin-left: 100px;
-    margin-bottom: 15px;
+    display: flex;
+    place-content: center;
+    margin-bottom: 20px;
   }
 
   .documentation_colors {
