@@ -170,6 +170,26 @@ h3 {
     display: flex;
     justify-content: space-evenly;
   }
+
+  .box_dokumentation {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .dokumentations_knap {
+    border: none;
+    border-radius: 12%;
+    color: #032623;
+    background-color: #f2f2f2;
+    padding: 40px 150px;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    box-shadow: 4px 3px;
+    margin: 20px;
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
 }
 
 /* forside tema knapper i grid på desktop */
@@ -236,6 +256,35 @@ h3 {
   .box_mig {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  /*Forside knappen til dokumentation */
+  .box_dokumentation {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .dokumentations_knap {
+    border: none;
+    border-radius: 5%;
+    color: #032623;
+    background-color: #f2f2f2;
+    padding: 60px 130px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    box-shadow: 4px 3px;
+    margin: 60px;
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
+
+  .dokumentations_knap:hover {
+    background-image: url(photo/doku_knap_forside.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
   }
 
   /* forside knappen til tema 2 (stilling)*/
