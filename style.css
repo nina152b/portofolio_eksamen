@@ -951,6 +951,12 @@ video {
     justify-content: center;
     padding-top: 5%;
   }
+
+  .gruppering_af_knapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 0.5fr));
+    gap: 10px;
+  }
 }
 
 /* afleveringsknapperne på tema 3 DESKTOP */
@@ -1005,6 +1011,12 @@ video {
     display: grid;
     justify-content: center;
     padding-bottom: 150px;
+  }
+
+  .gruppering_af_knapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 0.5fr));
+    gap: 10px;
   }
 }
 
@@ -1090,7 +1102,7 @@ video {
   .desktop_bilag2_t3 {
     display: grid;
     justify-content: center;
-    padding-top: 15%;
+    padding-top: 10%;
   }
 
   .afleveringer_t3 {
