@@ -54,12 +54,11 @@ h3 {
   font-family: "Roboto Mono", monospace;
 }
 
-/* Tekst på forsiden som står vertikalt i desktop mode */
+/* Tekst på forsiden som står vertikalt */
 .text {
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  font-size: 2.3rem;
-  font-family: "Oooh Baby", cursive;
+  font-size: 2.5rem;
   line-height: 0.5;
   margin-left: 14px;
 }
