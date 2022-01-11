@@ -724,7 +724,7 @@ video {
     font-family: "EB Garamond", serif;
   }
 
-  .placer_knap_2 {
+  .placer_knap_t2 {
     display: flex;
     place-content: center;
   }
