@@ -1821,14 +1821,16 @@ video {
     margin-right: 20px;
   }
 
-  h3 {
+  .h3_doku {
     margin-left: 50px;
     padding-top: 10px;
+    display: flex;
+    place-content: center;
   }
 
-  h2 {
+  .h2_doku {
     margin-top: 3px;
-    margin-left: 20px;
+    margin-left: -45px;
   }
 
   .billede {
@@ -2025,16 +2027,19 @@ video {
     padding-bottom: 30px;
   }
   /* H3 CSS til alle tekster */
-  h3 {
-    margin-left: 250px;
-    padding-top: 40px;
+  .h3_doku {
+    margin-left: 200px;
   }
 
   /* H2 CSS til alle tekster */
-  h2 {
+  .h2_doku {
     margin-top: 40px;
   }
 
+  .billede2 {
+    width: 30%;
+    border-radius: 3%;
+  }
   /*Medium billede format */
   .billede {
     width: 50%;
