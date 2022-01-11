@@ -1972,7 +1972,6 @@ video {
   .style {
     width: 50%;
     border-radius: 10%;
-    margin-left: 350px;
   }
 
   .moodboard_doc {
@@ -2039,6 +2038,7 @@ video {
   /* H2 CSS til alle tekster */
   .h2_doku {
     margin-top: 40px;
+    margin-left: 115px;
   }
 
   .billede3 {
