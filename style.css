@@ -1822,17 +1822,20 @@ video {
   }
 
   .h3_doku {
-    margin-left: 50px;
-    padding-top: 10px;
+    padding-top: 40px;
     display: flex;
     place-content: center;
   }
 
   .h2_doku {
-    margin-top: 3px;
-    margin-left: -45px;
+    display: flex;
+    place-content: center;
   }
 
+  .billede3 {
+    width: 50%;
+    border-radius: 30% 50%;
+  }
   .billede {
     width: 50%;
     border-radius: 3%;
@@ -1843,8 +1846,14 @@ video {
     border-radius: 3%;
   }
 
+  .billede2 {
+    width: 30%;
+    border-radius: 3%;
+  }
+
   .code {
-    margin-left: 10px;
+    display: flex;
+    place-content: center;
   }
 
   .diverne {
@@ -2034,6 +2043,11 @@ video {
   /* H2 CSS til alle tekster */
   .h2_doku {
     margin-top: 40px;
+  }
+
+  .billede3 {
+    width: 40%;
+    border-radius: 30% 50%;
   }
 
   .billede2 {
