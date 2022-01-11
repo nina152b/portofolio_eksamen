@@ -1735,6 +1735,104 @@ video {
 
 /* ___________________ Dokumentations side ________*/
 
+@media (max-width: 700px) {
+  .documentation_moodboard {
+    display: flex;
+    place-content: center;
+  }
+
+  img {
+    width: 40%;
+    border-radius: 50% 30%;
+  }
+
+  .documentation_first_styletile {
+    margin-left: 100px;
+    margin-bottom: 15px;
+  }
+
+  .documentation_colors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    padding-left: 52px;
+    padding-bottom: 5px;
+  }
+  .try_forside {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin-left: 42px;
+  }
+
+  .try_splashbillede {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    width: 110%;
+  }
+
+  .real_splash {
+    width: 100%;
+    margin-left: 78px;
+  }
+
+  .prototype {
+    border-radius: 70% 30% 90% 70%;
+    color: #f2f2f2;
+    padding-top: 24px;
+    padding-bottom: 38px;
+    padding-left: 30px;
+    padding-right: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 5px 5px;
+    background-color: #2c4040;
+    border: none;
+  }
+
+  .documentation_prototype {
+    display: grid;
+    justify-content: center;
+  }
+
+  .storyboard {
+    width: 60%;
+    margin-left: 125px;
+  }
+
+  .favicon {
+    width: 90%;
+    border-radius: 10%;
+  }
+
+  .favicon_dokumentation {
+    margin-left: 24px;
+  }
+
+  .style {
+    width: 50%;
+    border-radius: 10%;
+  }
+
+  .stylen {
+    display: flex;
+    place-content: center;
+  }
+
+  .moodboard_doc {
+    width: 90%;
+    border-radius: 10%;
+  }
+
+  .style_1 {
+    width: 50%;
+    border-radius: 10%;
+  }
+}
+
 /*Side opstilling på Desktop */
 @media (min-width: 700px) {
   .documentation_moodboard {
