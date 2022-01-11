@@ -548,7 +548,7 @@ video {
     padding-bottom: 100px;
   }
 
-  h2 {
+  .h2_mig {
     margin-left: 153px;
     margin-bottom: 38.92px;
   }
@@ -581,7 +581,7 @@ video {
     margin-right: 40px;
   }
 
-  h2 {
+  .h2_mig {
     margin-left: 106px;
   }
 
@@ -1691,11 +1691,6 @@ video {
     place-content: center;
   }
 
-  img {
-    width: 40%;
-    border-radius: 50% 30%;
-  }
-
   .documentation_first_styletile {
     display: flex;
     place-content: center;
@@ -1760,7 +1755,8 @@ video {
   }
 
   .favicon_dokumentation {
-    margin-left: 24px;
+    display: flex;
+    place-content: center;
   }
 
   .style {
@@ -1935,7 +1931,8 @@ video {
   .real_splash {
     width: 100%;
     margin-top: -42px;
-    margin-left: 300px;
+    display: flex;
+    place-content: center;
   }
 
   .prototype {
@@ -1970,7 +1967,11 @@ video {
   .favicon {
     width: 50%;
     border-radius: 10%;
-    margin-left: 350px;
+  }
+
+  .favicon_dokumentation {
+    display: flex;
+    place-content: center;
   }
 
   .style {
@@ -2111,5 +2112,10 @@ video {
     grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
     gap: 10px;
     margin-left: 87px;
+  }
+
+  .stylen {
+    display: flex;
+    place-content: center;
   }
 }
